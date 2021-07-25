@@ -1,0 +1,15 @@
+.bg-background{
+    background-color: #feeae9;
+}
+
+.btn-mycolor{
+    background-image: linear-gradient(to bottom, #e04080 0%, #ca2efa 100%);
+    color: #fff;
+    border: none;
+}
+
+
+
+.btn-mycolor::after{
+    content: ' >> ';
+}
